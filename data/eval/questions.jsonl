@@ -1,0 +1,25 @@
+{"id": "kb01", "type": "kb", "question": "How long is the standard warranty on laptops?", "expect_docs": ["warranty_and_returns"], "expect_all": ["12-month"]}
+{"id": "kb02", "type": "kb", "question": "What is the restocking fee for opened items that are not faulty?", "expect_docs": ["warranty_and_returns"], "expect_all": ["15%"]}
+{"id": "kb03", "type": "kb", "question": "How much does the extended warranty cost?", "expect_docs": ["warranty_and_returns"], "expect_all": ["8%"]}
+{"id": "kb04", "type": "kb", "question": "Within how many days must a dead on arrival claim be reported?", "expect_docs": ["warranty_and_returns"], "expect_all": ["7 days"]}
+{"id": "kb05", "type": "kb", "question": "How long does delivery to Sabah take?", "expect_docs": ["delivery_and_sla"], "expect_all": ["7 to 10"]}
+{"id": "kb06", "type": "kb", "question": "Is delivery free for a MYR 3,500 order?", "expect_docs": ["delivery_and_sla"], "expect_all": ["3,000"]}
+{"id": "kb07", "type": "kb", "question": "What is the rush delivery fee?", "expect_docs": ["delivery_and_sla"], "expect_all": ["150"]}
+{"id": "kb08", "type": "kb", "question": "What payment terms do approved credit accounts get?", "expect_docs": ["payment_terms"], "expect_all": ["Net 30"]}
+{"id": "kb09", "type": "kb", "question": "What is the late payment charge on overdue invoices?", "expect_docs": ["payment_terms"], "expect_all": ["1.5%"]}
+{"id": "kb10", "type": "kb", "question": "Who needs to approve a 12% discount?", "expect_docs": ["pricing_and_discounts"], "expect_all": ["director"]}
+{"id": "kb11", "type": "kb", "question": "How long is a standard quote valid?", "expect_docs": ["pricing_and_discounts"], "expect_all": ["14 days"]}
+{"id": "kb12", "type": "kb", "question": "When should the M365 renewal quote be sent?", "expect_docs": ["m365_renewals_playbook"], "expect_all": ["30 days"]}
+{"id": "kb13", "type": "kb", "question": "Which laptop should we recommend for a graphic designer?", "expect_docs": ["product_catalog_notes"], "expect_all": ["Aero 16 Studio"]}
+{"id": "kb14", "type": "kb", "question": "Can the Nimbus 15 memory be upgraded?", "expect_docs": ["product_catalog_notes"], "expect_all": ["soldered"]}
+{"id": "kb15", "type": "kb", "question": "How much does Premium Support cost per year?", "expect_docs": ["support_escalation"], "expect_all": ["2,400"]}
+{"id": "kb16", "type": "kb", "question": "How quickly must a rep contact a new marketing lead?", "expect_docs": ["client_onboarding"], "expect_all": ["1 business day"]}
+{"id": "web01", "type": "web", "question": "When did Windows 10 reach end of support?", "expect_all": ["2025"]}
+{"id": "web02", "type": "web", "question": "What are the current SST rates in Malaysia?", "expect_all": ["%"]}
+{"id": "web03", "type": "web", "question": "What is DuitNow?", "expect_all": ["payment"]}
+{"id": "none01", "type": "unanswerable", "question": "What is the CEO's favourite colour?"}
+{"id": "none02", "type": "unanswerable", "question": "What discount did we give Syarikat Maju Jaya last March?"}
+{"id": "none03", "type": "unanswerable", "question": "How many Aero 16 Studio units are in the warehouse right now?"}
+{"id": "none04", "type": "unanswerable", "question": "What is the sales revenue target for 2027?"}
+{"id": "none05", "type": "unanswerable", "question": "Which sales rep covers the Johor territory?"}
+{"id": "none06", "type": "unanswerable", "question": "What is the admin password for the client portal?"}

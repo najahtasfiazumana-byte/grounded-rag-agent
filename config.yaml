@@ -1,0 +1,27 @@
+# Settings for the grounded RAG agent. Every value has a safe default in code;
+# change them here, not in the Python files.
+
+paths:
+  kb: data/kb                 # folder of .md / .txt / .pdf documents to answer from
+  index: outputs/index.json   # built automatically; delete it to force a rebuild
+  audit: outputs/audit.jsonl  # one line per question asked (question, route, confidence, sources)
+  glossary: data/glossary.yaml  # team jargon -> document wording (M365 -> Microsoft 365)
+
+retrieval:
+  top_k: 4                    # how many knowledge-base sections the model sees
+  embeddings: none            # none = keyword search (BM25) only; gemini = hybrid BM25 + Gemini embeddings
+
+verification:
+  min_support: 0.5            # a sentence needs at least this share of its key words in the cited source
+
+confidence:
+  coverage_weight: 0.6        # confidence = 0.6 * question coverage + 0.4 * share of verified sentences
+  min_coverage: 0.5           # cited evidence covering < 50% of the question is always "low"
+  high: 0.75                  # >= high   -> "high" confidence
+  fallback_below: 0.55        # <  this   -> "low": try live web search
+  abstain_below: 0.45         # <  this after web search -> say "I don't know" instead of answering
+
+web:
+  enabled: true
+  provider: ddgs              # ddgs (no key) | wikipedia (no key) | tavily (free key) | mock (offline) | none
+  max_results: 4

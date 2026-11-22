@@ -1,0 +1,23 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install
+        run: pip install -e ".[dev,pdf]"
+      - name: Unit and end-to-end tests (offline, no API keys, no internet search)
+        run: pytest
+      - name: Offline demo + evaluation (mock model, fixture web search)
+        run: rag-agent demo --out outputs/ci

@@ -1,0 +1,16 @@
+# Domain glossary: words people type in questions -> how the documents say it.
+# Used to expand the question for search and for the confidence check.
+# Add your own team's jargon here. Keys and phrases are case-insensitive.
+m365: [microsoft 365]
+o365: [microsoft 365]
+sst: [sales and service tax]
+doa: [dead on arrival]
+kyc: [know your client]
+po: [purchase order]
+sla: [service level, response]
+kl: [klang valley]
+laptop: [laptops, notebook]
+notebook: [laptop]
+ram: [memory]
+memory: [ram]
+refund: [return]

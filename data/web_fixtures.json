@@ -1,0 +1,35 @@
+[
+  {
+    "keywords": ["sst", "rate", "malaysia", "service", "tax", "2025"],
+    "note": "OFFLINE FIXTURE for tests and demos. Real runs use live search.",
+    "results": [
+      {
+        "title": "[Offline fixture] Malaysia Sales and Service Tax overview",
+        "url": "https://example.com/fixtures/malaysia-sst",
+        "snippet": "Malaysia's Sales and Service Tax (SST) was expanded on 1 July 2025. Sales tax rates of 5% and 10% apply to taxable goods, and service tax rates of 6% and 8% apply to taxable services."
+      }
+    ]
+  },
+  {
+    "keywords": ["windows", "10", "support", "end"],
+    "note": "OFFLINE FIXTURE for tests and demos. Real runs use live search.",
+    "results": [
+      {
+        "title": "[Offline fixture] Windows 10 end of support",
+        "url": "https://example.com/fixtures/windows-10-end-of-support",
+        "snippet": "Windows 10 reached end of support on October 14, 2025. After that date, Windows 10 devices no longer receive free security updates unless they are enrolled in Extended Security Updates."
+      }
+    ]
+  },
+  {
+    "keywords": ["duitnow", "what", "payment"],
+    "note": "OFFLINE FIXTURE for tests and demos. Real runs use live search.",
+    "results": [
+      {
+        "title": "[Offline fixture] DuitNow",
+        "url": "https://example.com/fixtures/duitnow",
+        "snippet": "DuitNow is Malaysia's national real-time payment service. DuitNow lets people and businesses send money instantly using a mobile number, MyKad number or business registration number instead of a bank account number."
+      }
+    ]
+  }
+]
